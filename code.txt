@@ -1,0 +1,117 @@
+HTML:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Extensionista</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">Conheça o Projeto</a>
+            </li>
+            <li>
+                <a href="descubra.html">Descubra</a>
+            </li>
+            <li>
+                <a href="divulgueaquiasuaarte.html">Divulgue aqui a sua arte!</a>
+            </li>
+        </ul>
+    </nav>
+    <header>
+        <div class="center">
+            <img src="./img/degrade.jpg">
+        </img>
+        </div>
+
+        <div>
+        <h1 class="center">Projeto Extensionista</h1>
+        
+        </div>
+        <h2 class="center">Arte e Cultura</h2>
+        </header>
+
+        <main>
+            <section>
+                <h3 class="center">Projeto Voluntário</h3>
+                <p class="center">Este é um projeto sem fins lucrativos que visa espalhar conhecimentos artísticos <br> 
+                    e ajudar artistas a divulgarem seus trabalhos por meio deste site. Seus projetos <br>
+                    ficarão salvos nesta página como meio de chegarem em mais pessoas, seja para venda <br>
+                    ou só como forma de mostrar o seu trabalho!</p>
+            </section>
+        </main>
+
+        <footer>
+            <a href="https://github.com/nataliacrdso" target="_blank" rel="noopen">
+                <img src="./img/25231.png"></img>
+                <p>Github</p>
+
+            </a>
+        </footer>
+</body>
+</html>
+        
+        
+    </header>
+</body>
+</html>
+
+
+
+CSS:
+
+body {
+    color: black;
+    background-color: azure;
+    font-family: none;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    list-style-type: none;
+}
+
+a{
+    color: black;
+    background-color: azure;
+    text-decoration: none;
+}
+
+header img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid white;
+
+}
+
+.center {
+    text-align: center;
+}
+
+footer img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 25px;
+}
+
+nav a:hover {
+    color: palevioletred;
+}
